@@ -121,7 +121,7 @@ def plot_soundings(fig,ax,temp,rh,centerlat,centerlon,domainsize,cape):
                 #skew.ax.axvline(-20, color='orange', linestyle='--', linewidth=3)
                 skew.ax.axvline(-18, color='white', linestyle='--', linewidth=0)
                 skew.ax.axvline(-12, color='white', linestyle='--', linewidth=0)
-                #skew.ax.axvspan(-18, -12, color='gold', alpha=0.5)
+                skew.ax.axvspan(-18, -12, color='gold', alpha=0.5)
                 skew.ax.set_ylim((1000,300))
                 skew.ax.axis('off')
 
@@ -151,7 +151,7 @@ def plot_soundings(fig,ax,temp,rh,centerlat,centerlon,domainsize,cape):
                 #skew.ax.axvline(-20, color='orange', linestyle='--', linewidth=3)
                 skew.ax.axvline(-18, color='white', linestyle='--', linewidth=0)
                 skew.ax.axvline(-12, color='white', linestyle='--', linewidth=0)
-                #skew.ax.axvspan(-18, -12, color='gold', alpha=0.5)
+                skew.ax.axvspan(-18, -12, color='gold', alpha=0.5)
                 skew.ax.set_ylim((1000,300))
                 skew.ax.axis('off')
         leg = ax.legend(handles=[dashed_red_line,dashed_green_line,dashed_purple_line],title='Sounding Legend',loc=4,framealpha=1)
